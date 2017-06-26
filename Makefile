@@ -1,6 +1,6 @@
 ifneq (${KERNELRELEASE},)
 
-	obj-m  = rotatiotdriver.o
+	obj-m  = testdriver.o
 else
 
 	KERNELDIR        ?= /lib/modules/$(shell uname -r)/build
